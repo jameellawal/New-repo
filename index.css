@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    display: flex;
-    width: 100vw;
+    display: block;
     height: 100vh;
     background-image: linear-gradient(to right, #962365, #867396);
 }
@@ -10,9 +9,27 @@ body {
     background-color: white;
     border-radius: 4%;
     text-align: center;
-    width: 35%;
+    width: 30%;
+    height: 50%;
     justify-content: center;
     align-items: center;
+    margin: 100px auto;
 }
 
-footer 
+footer {
+    font-size: 15px;
+    color: #AF98C4;
+    width: 30%;
+    margin: 100px auto;
+}
+
+#first {
+    background-color: #FE3989;
+    border-radius: 1%;
+}
+
+input {
+    background-color: #EBF0F3;
+    border-radius: 1%;
+    border-color: #FFFFFF;
+}
