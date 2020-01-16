@@ -1,16 +1,22 @@
 body {
     margin: 0;
     display: block;
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to right, #962365, #867396);
+    font-family: 'Saira Semi Condensed', sans-serif;
 }
+img {
+    height: 50px;
+    width: 50px;
+}
+
 
 .main {
     background-color: white;
     border-radius: 4%;
     text-align: center;
     width: 30%;
-    height: 50%;
+    height: 280px;
     justify-content: center;
     align-items: center;
     margin: 100px auto;
@@ -25,11 +31,34 @@ footer {
 
 #first {
     background-color: #FE3989;
-    border-radius: 1%;
+    border-radius: 3%;
+    border: none;
+    width: 78%;
+    height: 30px;
+    margin-top: 5%;
+    color: white;
+    font-weight: bolder;
+}
+
+header{
+    font-weight: bolder;
+    padding-bottom: 3%;
 }
 
 input {
     background-color: #EBF0F3;
     border-radius: 1%;
     border-color: #FFFFFF;
+    border: none;
+    border-radius: 4%;
+    height: 30px;
+    width: 78%;
+    text-align: center;
+
+}
+
+form {
+    color: #7E828D;
+    font-size: 15px;
+    
 }
