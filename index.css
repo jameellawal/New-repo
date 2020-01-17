@@ -7,7 +7,9 @@ body {
 }
 img {
     height: 50px;
+    padding-top: 3%;
     width: 50px;
+
 }
 
 
@@ -16,7 +18,7 @@ img {
     border-radius: 4%;
     text-align: center;
     width: 30%;
-    height: 280px;
+    height: 300px;
     justify-content: center;
     align-items: center;
     margin: 100px auto;
@@ -25,8 +27,9 @@ img {
 footer {
     font-size: 15px;
     color: #AF98C4;
-    width: 30%;
+    width: 34%;
     margin: 100px auto;
+    text-align: center;
 }
 
 #first {
@@ -59,6 +62,7 @@ input {
 
 form {
     color: #7E828D;
+    display: block;
     font-size: 15px;
-    
 }
+
